@@ -10,5 +10,14 @@ public class Main {
         );
 
         System.out.println(genericObj);
+
+        GenericMethods<String, Person, Integer> obj = new GenericMethods<>(
+                "hola",
+                new Person("inga", "deme", 34),
+                60
+        );
+
+        System.out.println(obj);
     }
+
 }

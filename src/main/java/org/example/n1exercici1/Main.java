@@ -9,6 +9,19 @@ public class Main {
                 "course"
         );
 
+        NoGenericMethods noGenericMethods2 = new NoGenericMethods(
+                "LastName",
+                "name",
+                "course"
+        );
+        NoGenericMethods noGenericMethods3 = new NoGenericMethods(
+                "Course",
+                "name",
+                "lasName"
+        );
+
         System.out.println(noGenericMethods);
+        System.out.println(noGenericMethods2);
+        System.out.println(noGenericMethods3);
     }
 }

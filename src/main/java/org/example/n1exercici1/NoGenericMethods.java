@@ -5,10 +5,6 @@ public class NoGenericMethods {
     private String lastName;
     private String course;
 
-
-    /* TODO no entiendo como se debe crear un cosntructor que permita pasar
-     argumentos del mismo tipo en diferentes posiciones
-     */
     public NoGenericMethods(String name, String lastName, String course) {
         this.name = name;
         this.lastName = lastName;
